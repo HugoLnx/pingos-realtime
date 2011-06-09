@@ -1,0 +1,17 @@
+{ 
+  "name": "pingos-realtime",
+  "author": "Hugo Roque (a.k.a hugolnx)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HugoLnx/pingos-realtime.git"
+  },
+
+  "dependencies": {
+    "express": "2.3.11",
+    "faye": "0.6.1"
+  },
+
+  "main": "index",
+  "engines": {"node": "0.4.8"}
+}
