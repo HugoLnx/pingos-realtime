@@ -1,5 +1,6 @@
 var express = require("express");
 var faye = require("faye");
+var heroku = require("./heroku");
 
 var server = express.createServer();
 server.configure(function(){
@@ -20,4 +21,4 @@ server.post("/sinal-para-pingar", function(req,res) {
 
 adapter.attach(server);
 
-server.listen(3000);
+server.listen(heroku.port || 3000);
