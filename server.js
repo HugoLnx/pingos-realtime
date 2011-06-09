@@ -1,6 +1,5 @@
 var express = require("express");
 var faye = require("faye");
-var heroku = require("./heroku");
 
 var server = express.createServer();
 server.configure(function(){
